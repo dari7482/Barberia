@@ -1,0 +1,144 @@
+* {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+nav {
+    position: fixed;
+}
+
+.navbar {
+    background: linear-gradient(to right, #a3a3a3 0%, #000 100%);
+}
+
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #525252;
+}
+
+.navbar-brand{
+    border-color: #fff;
+}
+
+.container-fluid {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.fa-solid {
+    color: #fff;
+}
+
+/* BODY */
+body {
+    padding-top: 60px;
+}
+
+/* CARDS */
+
+.titulosSecciones {
+    color: dodgerblue;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.5rem;
+    padding-top: 2em;
+    padding-bottom: 1rem;
+    text-shadow: 4px 3px 6px rgba(71, 71, 71, 0.6);
+}
+
+.btn:hover {
+    color: #000;
+}
+
+.marginBody {
+    margin: 4rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(to right, #4f504f 0%, #363a3b 100%);
+    width: 100%;
+    padding: 5px 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.box__footer .logo img {
+    width: 150px;
+}
+
+.box__footer .terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+
+}
+
+.box__footer h2 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.box__footer a {
+    margin-top: 10px;
+    color: #000;
+    font-weight: 600;
+    font-size: 1, 5em;
+}
+
+.box__footer a:hover {
+    opacity: 0.3;
+}
+
+.box__footer p {
+    margin-top: 10px;
+    color: #000;
+    font-weight: 600;
+    font-size: 1, 5em;
+}
+
+.box__copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p {
+    margin-top: 20px;
+    color: #000;
+}
+
+.box__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #000;
+}
